@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Images from '../../../../assets'
 import Video from '../../../../assets/index_video'
+import GlitchText from '../../../../components/color/textGlitch'
 
 export default function Banner () {
   const [videoLoaded, setVideoLoaded] = useState(false)
@@ -38,6 +39,7 @@ export default function Banner () {
             <div>
               <h1 className="text-2xl sm:text-3xl lg:text-5xl select-none text-white font-bold py-2">
                 Titulo <span className="text-chocolate-300">For Example</span>
+                <GlitchText/>
               </h1>
               <p className="text-gray-400 lg:text-gray-200 w-full md:w-96">Mas.</p>
             </div>
