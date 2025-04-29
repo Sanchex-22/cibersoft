@@ -60,8 +60,8 @@ export const AppRoutes: React.FC<Props> = ({ pathnameLocation }) => {
         path="/"
         element={
           <EnvolveLayout
-            title="Carlos Sanchez"
-            description="Carlos Sanchez"
+            title="Cibersoft"
+            description="Cibersoft"
             isLogged={isLogged}
             profile={profile}
             currentPathname={pathnameLocation}
