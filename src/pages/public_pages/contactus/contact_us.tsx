@@ -68,7 +68,7 @@ export default function ContactUs() {
   }
 
   return (
-    <section id="confirmacion" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-3xl md:text-4xl text-center mb-4 text-indigo-600">
           Contactanos
