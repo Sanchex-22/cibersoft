@@ -1,6 +1,6 @@
 const WhatsappButton: React.FC = () => {
-  const phoneNumber = "" // Reemplaza con tu número de WhatsApp (ej: 57 para Colombia)
-  const whatsappText = "Estoy%20interesado%20en%20conocer%20m%C3%A1s%20de%20los%20cursos%20para%20marino." // Mensaje en URL encoding
+  const WhatsappNumber = import.meta.env.VITE_WHATSAPP_NUMBER || ''
+  const whatsappText = "Estoy%20interesado%20en%20conocer%20m%C3%A1s%20de%20sus%20servicios."
 
   return (
     <div
@@ -8,7 +8,7 @@ const WhatsappButton: React.FC = () => {
       className="btn-whatsapp-pulse-border fixed bottom-2 right-2 z-50 grid place-items-center rounded-full bg-green-600 shadow-md transition duration-300 ease-in-out hover:-translate-y-1 md:bottom-6 md:right-6 print:hidden"
     >
       <a
-        href={`https://wa.me/${phoneNumber}?text=${whatsappText}`}
+        href={`https://wa.me/${WhatsappNumber}?text=${whatsappText}`}
         target="_blank"
         rel="noopener noreferrer"
         className="block p-3 relative"
