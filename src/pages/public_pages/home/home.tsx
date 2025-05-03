@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       <Banner/>      
-      <AboutMe/>
       <Proyects/>
-      <Services/>
+      <Services/>      
+      <AboutMe/>
     </>
   )
 }

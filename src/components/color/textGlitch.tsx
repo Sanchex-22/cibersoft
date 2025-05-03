@@ -6,14 +6,14 @@ export default function GlitchText() {
   const [isGlitching, setIsGlitching] = useState(false)
   const [index, setIndex] = useState(0)
 
-  const descriptions = ["UX / UI Designer", "Software Developer"]
+  const descriptions = ["Software", "Automatizaciones", "Desarrollo Web", "Aplicaciones"]
   const description = descriptions[index]
 
   useEffect(() => {
     // Cambia el texto cada 5 segundos
     const switchInterval = setInterval(() => {
       setIndex((prev) => (prev + 1) % descriptions.length)
-    }, 5000)
+    }, 3000)
 
     return () => clearInterval(switchInterval)
   }, [])
@@ -29,7 +29,7 @@ export default function GlitchText() {
   }, [])
 
   return (
-    <p className="mb-8 max-w-md text-2xl leading-relaxed text-violet-500 font-semibold md:text-4xl relative">
+    <p className="mb-8 max-w-md text-2xl leading-relaxed text-blue-500 font-semibold md:text-4xl relative">
       <span
         className={`inline-block relative ${isGlitching ? "glitch-text" : ""}`}
         aria-label={description}

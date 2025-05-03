@@ -186,7 +186,7 @@ export const AppRoutes: React.FC<Props> = ({ pathnameLocation }) => {
               authRoles.moderator,
               authRoles.super_admin,
             ]}
-          >
+          >p
             <EnvolveLayout
               title="certs"
               description="certs"

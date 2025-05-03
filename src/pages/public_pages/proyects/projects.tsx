@@ -1,8 +1,8 @@
 "use client"
 
 import type React from "react"
-
 import { useEffect, useRef, useState } from "react"
+import Images from "../../../assets"
 
 // Tipo para los proyectos
 interface Project {
@@ -18,11 +18,11 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Plataforma E-learning",
+    title: "Landing Page para empresas",
     description:
-      "Diseño y desarrollo de una plataforma educativa con cursos interactivos y sistema de seguimiento de progreso.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "Node.js", "MongoDB"],
+      "Cursos Marinos es una plataforma de aprendizaje en línea que ofrece cursos basicos y avanzados sobre navegación y seguridad marítima.",
+    image: Images.cursosmarinos || "/placeholder.svg?height=600&width=800",
+    tags: ["Astro", "Tailwind", ],
     link: "#",
   },
   {
@@ -125,7 +125,6 @@ export default function Proyects() {
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Mis Proyectos</h2>
         <div className="mx-auto mt-3 h-1 w-20 bg-indigo-600"></div>
       </div>
-
       {/* Carrusel */}
       <div
         ref={carouselRef}
@@ -155,14 +154,14 @@ export default function Proyects() {
                   {/* Información del proyecto */}
                   <div className="flex flex-col justify-center">
                     <h3 className="mb-3 text-2xl font-bold sm:text-3xl">{project.title}</h3>
-                    <p className="mb-6 text-gray-300">{project.description}</p>
+                    <p className="mb-6 text-gray-800">{project.description}</p>
 
                     {/* Etiquetas */}
                     <div className="mb-8 flex flex-wrap gap-2">
                       {project.tags.map((tag, index) => (
                         <span
                           key={index}
-                          className="rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-gray-200"
+                          className="rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-gray-500"
                         >
                           {tag}
                         </span>

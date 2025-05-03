@@ -2,8 +2,6 @@
 
 import type React from "react"
 import { useEffect } from "react"
-import { Menu } from "lucide-react"
-import ProfileButton from "../buttons/profile_button"
 import type { UserProfile } from "../../context/userProfileContext"
 
 interface CurrentPathname {
@@ -12,11 +10,11 @@ interface CurrentPathname {
 
 interface NavbarProps {
   currentPathname: CurrentPathname
-  isLogged: boolean
+  isLogged?: boolean
   profile: UserProfile | null
 }
 
-const Navbar: React.FC<NavbarProps> = ({ currentPathname, isLogged, profile }) => {
+const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
   const nav_links = [
     { name: "Carlos Sanchez", href: "/" },
     { name: "About me", href: "#about-me" },
@@ -37,22 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname, isLogged, profile }) =
     }
     window.addEventListener("scroll", handleScroll)
 
-    const body = document?.querySelector("body")
-    const openButton = document?.getElementById("open-menu")
-    const side = document?.getElementById("sidebar")
 
-    if (!openButton) throw new Error("No button or nav found")
-    function openMenu() {
-      window.scrollTo(0, 0)
-      body?.classList.add("overflow-hidden")
-      side?.classList.remove("invisible", "translate-x-full", "hidden")
-    }
-    openButton.addEventListener("click", openMenu)
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-      openButton.removeEventListener("click", openMenu)
-    }
   }, [])
 
   const isActive = (path: string) => currentPathname.name === path
@@ -72,7 +55,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname, isLogged, profile }) =
               href="/"
               className="text-gray-900 font-bold text-xl tracking-tight hover:text-gray-700 transition-colors"
             >
-              Carlos Sanchez
+              Cibersoft
             </a>
           </div>
 
@@ -93,37 +76,6 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname, isLogged, profile }) =
             )}
           </div>
 
-          <div className="flex items-center gap-4">
-            {isLogged ? (
-              <div className="flex items-center gap-2">
-                <a
-                  href="/account"
-                  className="hidden md:inline-block text-gray-600 text-base font-medium hover:text-gray-900 transition-colors"
-                >
-                  Mi cuenta
-                </a>
-                <span className="hidden md:inline-block text-gray-300">|</span>
-                <div className="relative">
-                  <ProfileButton profile={profile} />
-                </div>
-              </div>
-            ) : (
-              <a
-                href="/login"
-                className="text-gray-900 font-medium px-4 py-2 rounded-md border border-gray-200 hover:bg-gray-50 transition-all"
-              >
-                Login
-              </a>
-            )}
-
-            <button
-              id="open-menu"
-              aria-label="Abrir menú"
-              className="md:hidden p-1.5 rounded-md text-gray-700 hover:bg-gray-100 transition-colors"
-            >
-              <Menu size={24} />
-            </button>
-          </div>
         </div>
       </div>
     </nav>

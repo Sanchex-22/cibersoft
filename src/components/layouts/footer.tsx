@@ -11,10 +11,10 @@ function Footer() {
           {/* Columna 1: Logo e información */}
           <div className="mb-8 md:mb-0">
             <h3 className="font-display text-2xl font-bold text-white transition-all duration-300 hover:scale-110 inline-block">
-              Carlos Sanchez
+              CiberSoft
             </h3>
             <p className="mt-4 text-gray-400 max-w-xs">
-              Desarrollador web especializado en crear experiencias digitales modernas y funcionales.
+              Empresa especializada en crear experiencias digitales modernas y funcionales.
             </p>
             <div className="mt-6 flex space-x-4">
               <a 
@@ -73,7 +73,7 @@ function Footer() {
               </li>
               <li>
                 <Link to="#about" className="inline-block transition-colors hover:text-indigo-400">
-                  Sobre Mí
+                  Nosotros
                 </Link>
               </li>
               <li>
