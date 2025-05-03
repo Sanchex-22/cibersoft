@@ -57,7 +57,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
               href="/"
               className="text-gray-900 font-bold text-xl tracking-tight hover:text-gray-700 transition-colors"
             >
-              Cibersoft
+              CIBERSOFT
             </a>
           </div>
 

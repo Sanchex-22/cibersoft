@@ -24,8 +24,8 @@ export default function Banner () {
                 Transforma tu negocio <span className="text-blue-300">Hoy</span>
                 <GlitchText/>
               </h1>
-              <a href="#" className="text-white border-2 w-fit rounded-md px-3 py-1">
-                Ver Más
+              <a href="#contact" className="text-white border-2 w-fit rounded-md px-3 py-1">
+                Contactanos
               </a>
             </div>
           </div>
