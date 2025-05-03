@@ -15,13 +15,15 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
+  const isHome = currentPathname?.name === "/";
+
   const nav_links = [
     { name: "CiberSoft", href: "/" },
-    { name: "Nosotros", href: "#about-us" },
-    { name: "Projects", href: "#projects" },
-    { name: "Services", href: "#services" },
-    { name: "Contactanos", href: "#contact" },
-  ]
+    { name: "Nosotros", href: isHome ? "#about-us" : "/#about-us" },
+    { name: "Projects", href: isHome ? "#projects" : "/#projects" },
+    { name: "Services", href: isHome ? "#services" : "/#services" },
+    { name: "Contactanos", href: isHome ? "#contact" : "/#contact" },
+  ];
 
   useEffect(() => {
     const navbar = document.getElementById("navbar")
