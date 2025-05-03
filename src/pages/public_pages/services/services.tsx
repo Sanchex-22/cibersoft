@@ -38,18 +38,22 @@ export default function Services() {
       itemScope
       itemType="https://schema.org/Organization"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center"><h1 className="text-4xl font-bold mb-6 text-indigo-700">Nuestros Servicios</h1></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+        <h1 className="text-4xl font-bold mb-6 text-indigo-700">
+          Nuestros Servicios
+        </h1>
+      </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Primera sección con imagen */}
         <div
           ref={(el) => (sectionRefs.current[0] = el)}
           className="grid md:grid-cols-2 gap-12 items-center opacity-0 translate-y-4 transition-all duration-700 ease-out"
         >
-          <div className="relative order-2 md:order-1">
-            <div className="relative h-[380px] w-[380px] mx-auto md:mx-0">
-              <div className="absolute -right-4 -top-4 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
-              <div className="absolute -left-4 -bottom-4 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
-              <div className="absolute bottom-0 right-0 h-28 w-28 rounded-tl-3xl bg-indigo-600/80 backdrop-blur-sm"></div>
+          <div className="relative order-2 md:order-1 w-full max-w-sm mx-auto md:mx-0">
+            <div className="relative w-full aspect-square">
+              <div className="absolute -right-2 -top-2 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
+              <div className="absolute -left-2 -bottom-2 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
+              <div className="absolute bottom-0 right-0 h-20 w-20 rounded-tl-3xl bg-indigo-600/80 backdrop-blur-sm"></div>
               <div className="absolute inset-0 overflow-hidden rounded-2xl border-2 border-gray-300 shadow-lg shadow-indigo-100">
                 <img
                   src={Images.serviceImage || "#"}

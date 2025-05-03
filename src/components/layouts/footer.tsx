@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom"
-
 function Footer() {
   const currentYear = new Date().getFullYear()
   
@@ -67,29 +65,29 @@ function Footer() {
             <h4 className="mb-4 text-lg font-semibold text-white">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link to="/" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="/" className="inline-block transition-colors hover:text-indigo-400">
                   Inicio
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#about" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#about" className="inline-block transition-colors hover:text-indigo-400">
                   Nosotros
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#projects" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#projects" className="inline-block transition-colors hover:text-indigo-400">
                   Proyectos
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#services" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#services" className="inline-block transition-colors hover:text-indigo-400">
                   Servicios
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#contact" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#contact" className="inline-block transition-colors hover:text-indigo-400">
                   Contacto
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -99,11 +97,11 @@ function Footer() {
             <h4 className="mb-4 text-lg font-semibold text-white">Servicios</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link to="/services/web-development" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#services" className="inline-block transition-colors hover:text-indigo-400">
                   Desarrollo Web
-                </Link>
+                </a>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/services/ui-design" className="inline-block transition-colors hover:text-indigo-400">
                   Diseño UI/UX
                 </Link>
@@ -117,7 +115,7 @@ function Footer() {
                 <Link to="/services/consulting" className="inline-block transition-colors hover:text-indigo-400">
                   Consultoría
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           

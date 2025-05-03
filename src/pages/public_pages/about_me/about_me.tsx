@@ -34,7 +34,7 @@ export default function AboutMe() {
   return (
     <section
       className="bg-white py-12 md:py-12 text-gray-800 scroll-mt-16"
-      id="about-me"
+      id="about-us"
       itemScope
       itemType="https://schema.org/Organization"
     >

@@ -16,11 +16,11 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
   const nav_links = [
-    { name: "Carlos Sanchez", href: "/" },
-    { name: "About me", href: "#about-me" },
+    { name: "CiberSoft", href: "/" },
+    { name: "Nosotros", href: "#about-us" },
     { name: "Projects", href: "#projects" },
     { name: "Services", href: "#services" },
-    { name: "Contact me", href: "#contact" },
+    { name: "Contactanos", href: "#contact" },
   ]
 
   useEffect(() => {

@@ -2,57 +2,8 @@
 
 import type React from "react"
 import { useEffect, useRef, useState } from "react"
-import Images from "../../../assets"
+import { projects } from "../../../data/projects"
 
-// Tipo para los proyectos
-interface Project {
-  id: number
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  link: string
-}
-
-// Datos de ejemplo para los proyectos
-const projects: Project[] = [
-  {
-    id: 1,
-    title: "Landing Page para empresas",
-    description:
-      "Cursos Marinos es una plataforma de aprendizaje en línea que ofrece cursos basicos y avanzados sobre navegación y seguridad marítima.",
-    image: Images.cursosmarinos || "/placeholder.svg?height=600&width=800",
-    tags: ["Astro", "Tailwind", ],
-    link: "#",
-  },
-  {
-    id: 2,
-    title: "App de Finanzas Personales",
-    description:
-      "Aplicación móvil para gestionar presupuestos, gastos e inversiones con visualizaciones de datos en tiempo real.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["React Native", "Firebase", "Chart.js"],
-    link: "#",
-  },
-  {
-    id: 3,
-    title: "Tienda Online",
-    description:
-      "E-commerce completo con catálogo de productos, carrito de compras, pasarela de pagos y panel de administración.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["Next.js", "Stripe", "Tailwind CSS"],
-    link: "#",
-  },
-  {
-    id: 4,
-    title: "Dashboard Analítico",
-    description:
-      "Panel de control para visualización de métricas empresariales con gráficos interactivos y reportes personalizados.",
-    image: "/placeholder.svg?height=600&width=800",
-    tags: ["Vue.js", "D3.js", "Express"],
-    link: "#",
-  },
-]
 
 export default function Proyects() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -170,7 +121,7 @@ export default function Proyects() {
 
                     {/* Botón de enlace */}
                     <a
-                      href={project.link}
+                      href={`/project/${project.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex w-fit items-center justify-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#1A1A2E]"
