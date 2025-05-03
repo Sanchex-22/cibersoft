@@ -51,7 +51,7 @@ export default function AboutMe() {
           itemScope
           itemType="https://schema.org/Offer"
         >
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="h-1 w-24 bg-indigo-600 mb-6 rounded-full"></div>
             <h3
               className="text-2xl font-bold mb-6 text-indigo-700"

@@ -122,7 +122,7 @@ export default function Proyects() {
     <section className="scroll-mt-16 relative w-full overflow-hidden bg-white py-16 text-black md:py-24" id="projects">
       {/* Título de sección */}
       <div className="mx-auto mb-12 max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Mis Proyectos</h2>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-4xl text-indigo-600">Nuestros Proyectos</h2>
         <div className="mx-auto mt-3 h-1 w-20 bg-indigo-600"></div>
       </div>
       {/* Carrusel */}
