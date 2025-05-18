@@ -19,9 +19,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
 
   const nav_links = [
     { name: "FEENNIX", href: "/" },
-    { name: "Nosotros", href: isHome ? "#about-us" : "/#about-us" },
     { name: "Projectos", href: isHome ? "#projects" : "/#projects" },
     { name: "Servicios", href: isHome ? "#services" : "/#services" },
+    { name: "Nosotros", href: isHome ? "#about-us" : "/#about-us" },
     { name: "Contactanos", href: isHome ? "#contact" : "/#contact" },
   ];
 
