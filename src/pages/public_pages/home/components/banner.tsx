@@ -1,34 +1,46 @@
 import Images from '../../../../assets'
 import GlitchText from '../../../../components/color/textGlitch'
 
-export default function Banner () {
-
+export default function Banner() {
   return (
     <section
       id="hero"
-      className="relative z-10 bg-black grid min-h-[35rem] lg:h-[80vh] max-h-[55rem] w-full grid-cols-12 grid-rows-4"
+      className="relative z-10 bg-black min-h-[35rem] lg:h-[80vh] max-h-[55rem] w-full flex items-center justify-center"
     >
-        <img
-          src={Images.banner || "#"}
-          alt="banner"
-          className="col-span-full row-span-full h-full w-full object-cover object-[center_70%] absolute inset-0 z-0"
-        />
+      {/* Background Image */}
+      <img
+        src={Images.banner || "#"}
+        alt="banner"
+        className="absolute inset-0 h-full w-full object-cover object-[center_70%] z-0"
+      />
 
-      <div className="z-20 absolute inset-0 bg-gradient-to-r from-black to-black opacity-50 col-span-full row-span-full"></div>
+      {/* Gradient Overlay */}
+      <div className="z-10 absolute inset-0 bg-gradient-to-r from-orange-500 to-yellow-500 opacity-90" />
 
-      <div className="z-30 px-6 col-span-full row-span-full mx-auto grid h-full w-full max-w-7xl grid-cols-12">
-        <div className="col-span-full row-span-full flex flex-col items-center justify-center justify-gap-2 bg-opacity-50 px-2 md:items-start">
-          <div className="flex flex-col h-full w-full py-10 lg:py-44 justify-end">
-            <div>
-              <h1 className="text-2xl sm:text-3xl lg:text-5xl select-none text-white font-bold py-2">
-                Transforma tu negocio <span className="text-orange-300">Hoy</span>
-                <GlitchText/>
-              </h1>
-              <a href="#contact" className="text-white border-2 w-fit rounded-md px-3 py-1">
-                Contactanos
-              </a>
-            </div>
-          </div>
+      {/* Content */}
+      <div className="relative z-20 grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl px-6 py-10 lg:py-32 gap-8 items-center">
+        
+        {/* Texto a la izquierda */}
+        <div className="text-center md:text-left">
+          <h1 className="text-3xl lg:text-5xl font-bold text-white mb-4">
+            Transforma tu negocio
+            <GlitchText />
+          </h1>
+          <a
+            href="#contact"
+            className="inline-block text-lg text-white border-2 border-red-500 rounded-md px-4 py-2 bg-red-500 mt-4"
+          >
+            Contáctanos
+          </a>
+        </div>
+
+        {/* Imagen/aliado a la derecha */}
+        <div className="flex justify-center items-center">
+          <img
+            src={Images.banner || Images.banner}
+            alt="CiberSoft ERP"
+            className="w-full max-w-md rounded-xl shadow-xl origin-center md:origin-top "
+          />
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@
 .text-transition,
 .text-transition a,
 .text-transition button {
-  color: black;
+  color: rgb(255, 136, 0);
   transition: color 0.3s ease;
 }
 

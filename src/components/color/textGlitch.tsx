@@ -29,7 +29,7 @@ export default function GlitchText() {
   }, [])
 
   return (
-    <p className="mb-8 max-w-md text-2xl leading-relaxed text-orange-400 font-semibold md:text-4xl relative">
+    <p className="mb-4 max-w-md text-2xl leading-relaxed text-black font-bold md:text-4xl relative uppercase">
       <span
         className={`inline-block relative ${isGlitching ? "glitch-text" : ""}`}
         aria-label={description}

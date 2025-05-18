@@ -76,7 +76,7 @@ export default {
         },
       },
       fontFamily: {
-        Manrope: ["Manrope", "sans-serif"],
+        Manrope: ["Inter", "sans-serif"],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
