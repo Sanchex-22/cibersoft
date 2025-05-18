@@ -39,7 +39,7 @@ export default function AboutMe() {
       itemType="https://schema.org/Organization"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-        <h1 className="text-4xl font-bold my-2 text-indigo-700">Nosotros</h1>
+        <h1 className="text-4xl font-bold my-2 text-orange-700">Nosotros</h1>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Primera sección*/}
@@ -52,12 +52,12 @@ export default function AboutMe() {
           itemType="https://schema.org/Offer"
         >
           <div className="max-w-7xl mx-auto">
-            <div className="h-1 w-24 bg-indigo-600 mb-6 rounded-full"></div>
+            <div className="h-1 w-24 bg-orange-600 mb-6 rounded-full"></div>
             <h3
-              className="text-2xl font-bold mb-6 text-indigo-700"
+              className="text-2xl font-bold mb-6 text-orange-700"
               itemProp="name"
             >
-              Sobre CiberSoft
+              Sobre FEENNIX
             </h3>
             <div className="text-gray-700 space-y-6">
               <p className="leading-relaxed" itemProp="description">
@@ -68,8 +68,8 @@ export default function AboutMe() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mt-8">
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Users className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Users className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Vision
                   </h4>
@@ -80,8 +80,8 @@ export default function AboutMe() {
                   </p>
                 </div>
 
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Server className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Server className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Mision
                   </h4>

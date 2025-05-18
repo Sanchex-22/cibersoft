@@ -36,7 +36,7 @@ function ProjectsInfo() {
               <>
                 <div>
                   <div className="flex items-center space-x-2 mb-3">
-                    <div className="h-px w-8 bg-indigo-600"></div>
+                    <div className="h-px w-8 bg-orange-600"></div>
                     <span className="text-gray-500 text-sm uppercase tracking-wider">Producto</span>
                   </div>
                   <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-4">{data.title}</h1>
@@ -45,7 +45,7 @@ function ProjectsInfo() {
                     <div className="flex items-center">
                       <div className="flex">
                         {[1, 2, 3, 4].map((star) => (
-                          <Star key={star} className="w-5 h-5 fill-indigo-600 text-indigo-600" />
+                          <Star key={star} className="w-5 h-5 fill-orange-600 text-orange-600" />
                         ))}
                         <Star className="w-5 h-5 fill-gray-300 text-gray-300" />
                       </div>
@@ -59,7 +59,7 @@ function ProjectsInfo() {
 
                   <ul className="space-y-4">
                     <li className="flex items-center gap-3">
-                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-indigo-600">
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-600">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                           <path
                             d="M5 12L10 17L20 7"
@@ -73,7 +73,7 @@ function ProjectsInfo() {
                       <span className="text-gray-800">Premium</span>
                     </li>
                     <li className="flex items-center gap-3">
-                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-indigo-600">
+                      <div className="flex items-center justify-center w-6 h-6 rounded-full bg-orange-600">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
                           <path
                             d="M5 12L10 17L20 7"
@@ -91,8 +91,9 @@ function ProjectsInfo() {
 
                 <div className="pt-6">
                   <a
-                    className="w-full sm:w-auto px-8 py-3 bg-indigo-600 text-white font-medium rounded-md hover:bg-indigo-500 transition-colors"
+                    className="w-full sm:w-auto px-8 py-3 bg-orange-600 text-white font-medium rounded-md hover:bg-orange-500 transition-colors"
                     href={data.link || "#"}
+                    target="_blank"
                   >
                     Visitar
                   </a>

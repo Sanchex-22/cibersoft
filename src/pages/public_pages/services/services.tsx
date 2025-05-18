@@ -39,7 +39,7 @@ export default function Services() {
       itemType="https://schema.org/Organization"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center">
-        <h1 className="text-4xl font-bold mb-6 text-indigo-700">
+        <h1 className="text-4xl font-bold mb-6 text-orange-700">
           Nuestros Servicios
         </h1>
       </div>
@@ -51,10 +51,10 @@ export default function Services() {
         >
           <div className="relative order-2 md:order-1 w-full max-w-sm mx-auto md:mx-0">
             <div className="relative w-full aspect-square">
-              <div className="absolute -right-2 -top-2 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
-              <div className="absolute -left-2 -bottom-2 h-full w-full rounded-2xl border-2 border-indigo-200"></div>
-              <div className="absolute bottom-0 right-0 h-20 w-20 rounded-tl-3xl bg-indigo-600/80 backdrop-blur-sm"></div>
-              <div className="absolute inset-0 overflow-hidden rounded-2xl border-2 border-gray-300 shadow-lg shadow-indigo-100">
+              <div className="absolute -right-2 -top-2 h-full w-full rounded-2xl border-2 border-orange-200"></div>
+              <div className="absolute -left-2 -bottom-2 h-full w-full rounded-2xl border-2 border-orange-200"></div>
+              <div className="absolute bottom-0 right-0 h-20 w-20 rounded-tl-3xl bg-orange-600/80 backdrop-blur-sm"></div>
+              <div className="absolute inset-0 overflow-hidden rounded-2xl border-2 border-gray-300 shadow-lg shadow-orange-100">
                 <img
                   src={Images.serviceImage || "#"}
                   alt="Servicios Administrados de Soporte"
@@ -66,9 +66,9 @@ export default function Services() {
           </div>
 
           <div className="order-1 md:order-2">
-            <div className="h-1 w-24 bg-indigo-600 mb-8 rounded-full"></div>
+            <div className="h-1 w-24 bg-orange-600 mb-8 rounded-full"></div>
             <h3
-              className="text-2xl font-bold mb-6 text-indigo-700"
+              className="text-2xl font-bold mb-6 text-orange-700"
               itemProp="description"
             >
               Servicios Administrados de Soporte
@@ -83,7 +83,7 @@ export default function Services() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
-                  <Server className="h-6 w-6 text-indigo-600 mt-0.5 flex-shrink-0" />
+                  <Server className="h-6 w-6 text-orange-600 mt-0.5 flex-shrink-0" />
                   <span>
                     <strong className="text-gray-900">Conectividad:</strong>{" "}
                     Servicios Ingeniería de Red, Servicios Media e IPTV,
@@ -91,7 +91,7 @@ export default function Services() {
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Database className="h-6 w-6 text-indigo-600 mt-0.5 flex-shrink-0" />
+                  <Database className="h-6 w-6 text-orange-600 mt-0.5 flex-shrink-0" />
                   <span>
                     <strong className="text-gray-900">Infraestructura:</strong>{" "}
                     Entorno colaborativo, Bases de Datos, Middleware, Servicios
@@ -99,7 +99,7 @@ export default function Services() {
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <Monitor className="h-6 w-6 text-indigo-600 mt-0.5 flex-shrink-0" />
+                  <Monitor className="h-6 w-6 text-orange-600 mt-0.5 flex-shrink-0" />
                   <span>
                     <strong className="text-gray-900">Ofimática:</strong>{" "}
                     Gestión integral del puesto de trabajo, Planificación del
@@ -122,9 +122,9 @@ export default function Services() {
           itemType="https://schema.org/Offer"
         >
           <div className="max-w-7xl mx-auto">
-            <div className="h-1 w-24 bg-indigo-600 mb-6 rounded-full"></div>
+            <div className="h-1 w-24 bg-orange-600 mb-6 rounded-full"></div>
             <h3
-              className="text-2xl font-bold mb-6 text-indigo-700"
+              className="text-2xl font-bold mb-6 text-orange-700"
               itemProp="name"
             >
               Servicios Profesionales y Especializados
@@ -138,8 +138,8 @@ export default function Services() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-6 mt-8">
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Users className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Users className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Personal residente
                   </h4>
@@ -150,8 +150,8 @@ export default function Services() {
                   </p>
                 </div>
 
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Server className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Server className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Administración de servidores
                   </h4>
@@ -161,8 +161,8 @@ export default function Services() {
                   </p>
                 </div>
 
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Shield className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Shield className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Administración de seguridad
                   </h4>
@@ -172,8 +172,8 @@ export default function Services() {
                   </p>
                 </div>
 
-                <div className="bg-indigo-50 p-6 rounded-xl border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 shadow-sm">
-                  <Cpu className="h-8 w-8 text-indigo-600 mb-4" />
+                <div className="bg-orange-50 p-6 rounded-xl border border-orange-100 hover:border-orange-300 transition-colors duration-300 shadow-sm">
+                  <Cpu className="h-8 w-8 text-orange-600 mb-4" />
                   <h4 className="text-lg font-semibold mb-2 text-gray-900">
                     Administración directorio activo y Networking
                   </h4>
@@ -196,9 +196,9 @@ export default function Services() {
           itemType="https://schema.org/Offer"
         >
           <div className="max-w-7xl mx-auto">
-            <div className="h-1 w-24 bg-indigo-600 mb-6 rounded-full"></div>
+            <div className="h-1 w-24 bg-orange-600 mb-6 rounded-full"></div>
             <h3
-              className="text-2xl font-bold mb-6 text-indigo-700"
+              className="text-2xl font-bold mb-6 text-orange-700"
               itemProp="name"
             >
               Servicios Mesa de ayuda
@@ -214,9 +214,9 @@ export default function Services() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl border border-indigo-100 hover:shadow-md hover:shadow-indigo-100 transition-all duration-300">
-                <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-indigo-700">1</span>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-xl border border-orange-100 hover:shadow-md hover:shadow-orange-100 transition-all duration-300">
+                <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-orange-700">1</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-gray-900">
                   Primer nivel técnico
@@ -227,9 +227,9 @@ export default function Services() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl border border-indigo-100 hover:shadow-md hover:shadow-indigo-100 transition-all duration-300">
-                <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-indigo-700">2</span>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-xl border border-orange-100 hover:shadow-md hover:shadow-orange-100 transition-all duration-300">
+                <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-orange-700">2</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-gray-900">
                   Segundo nivel técnico
@@ -241,9 +241,9 @@ export default function Services() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl border border-indigo-100 hover:shadow-md hover:shadow-indigo-100 transition-all duration-300">
-                <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-indigo-700">3</span>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-xl border border-orange-100 hover:shadow-md hover:shadow-orange-100 transition-all duration-300">
+                <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-orange-700">3</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-gray-900">
                   Monitoreo 7x24
@@ -254,9 +254,9 @@ export default function Services() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl border border-indigo-100 hover:shadow-md hover:shadow-indigo-100 transition-all duration-300">
-                <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-indigo-700">4</span>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-xl border border-orange-100 hover:shadow-md hover:shadow-orange-100 transition-all duration-300">
+                <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-orange-700">4</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-gray-900">
                   Coordinación Mesa
@@ -267,9 +267,9 @@ export default function Services() {
                 </p>
               </div>
 
-              <div className="bg-gradient-to-br from-indigo-50 to-white p-6 rounded-xl border border-indigo-100 hover:shadow-md hover:shadow-indigo-100 transition-all duration-300">
-                <div className="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-xl font-bold text-indigo-700">5</span>
+              <div className="bg-gradient-to-br from-orange-50 to-white p-6 rounded-xl border border-orange-100 hover:shadow-md hover:shadow-orange-100 transition-all duration-300">
+                <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                  <span className="text-xl font-bold text-orange-700">5</span>
                 </div>
                 <h4 className="text-lg font-semibold mb-2 text-gray-900">
                   Auditorías de calidad

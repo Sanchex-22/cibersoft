@@ -52,8 +52,8 @@ export default function CertificatesSection() {
                 </div>
               </div>
               <div className="bg-gray-50 px-4 py-4 sm:px-6 flex justify-between">
-                <button className="text-sm text-blue-600 hover:text-blue-800">Ver certificado</button>
-                <button className="text-sm text-blue-600 hover:text-blue-800">Descargar PDF</button>
+                <button className="text-sm text-orange-600 hover:text-orange-800">Ver certificado</button>
+                <button className="text-sm text-orange-600 hover:text-orange-800">Descargar PDF</button>
               </div>
             </div>
           ))}

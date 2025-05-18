@@ -21,7 +21,7 @@ export default function Banner () {
           <div className="flex flex-col h-full w-full py-10 lg:py-44 justify-end">
             <div>
               <h1 className="text-2xl sm:text-3xl lg:text-5xl select-none text-white font-bold py-2">
-                Transforma tu negocio <span className="text-blue-300">Hoy</span>
+                Transforma tu negocio <span className="text-orange-300">Hoy</span>
                 <GlitchText/>
               </h1>
               <a href="#contact" className="text-white border-2 w-fit rounded-md px-3 py-1">

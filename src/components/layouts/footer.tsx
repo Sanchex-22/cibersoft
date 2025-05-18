@@ -9,7 +9,7 @@ function Footer() {
           {/* Columna 1: Logo e información */}
           <div className="mb-8 md:mb-0">
             <h3 className="font-display text-2xl font-bold text-white transition-all duration-300 hover:scale-110 inline-block">
-              CiberSoft
+              FEENNIX
             </h3>
             <p className="mt-4 text-gray-400 max-w-xs">
               Empresa especializada en crear experiencias digitales modernas y funcionales.
@@ -19,7 +19,7 @@ function Footer() {
                 href="https://twitter.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-indigo-600"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-orange-600"
                 aria-label="Twitter"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ function Footer() {
                 href="https://github.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-indigo-600"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-orange-600"
                 aria-label="GitHub"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ function Footer() {
                 href="https://linkedin.com" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-indigo-600"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-orange-600"
                 aria-label="LinkedIn"
               >
                 <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ function Footer() {
               </a>
               <a 
                 href="mailto:contacto@ejemplo.com"
-                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-indigo-600"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-orange-600"
                 aria-label="Email"
               >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -65,27 +65,27 @@ function Footer() {
             <h4 className="mb-4 text-lg font-semibold text-white">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="/" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="/" className="inline-block transition-colors hover:text-orange-400">
                   Inicio
                 </a>
               </li>
               <li>
-                <a href="#about" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#about" className="inline-block transition-colors hover:text-orange-400">
                   Nosotros
                 </a>
               </li>
               <li>
-                <a href="#projects" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#projects" className="inline-block transition-colors hover:text-orange-400">
                   Proyectos
                 </a>
               </li>
               <li>
-                <a href="#services" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#services" className="inline-block transition-colors hover:text-orange-400">
                   Servicios
                 </a>
               </li>
               <li>
-                <a href="#contact" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#contact" className="inline-block transition-colors hover:text-orange-400">
                   Contacto
                 </a>
               </li>
@@ -97,22 +97,22 @@ function Footer() {
             <h4 className="mb-4 text-lg font-semibold text-white">Servicios</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#services" className="inline-block transition-colors hover:text-indigo-400">
+                <a href="#services" className="inline-block transition-colors hover:text-orange-400">
                   Desarrollo Web
                 </a>
               </li>
               {/* <li>
-                <Link to="/services/ui-design" className="inline-block transition-colors hover:text-indigo-400">
+                <Link to="/services/ui-design" className="inline-block transition-colors hover:text-orange-400">
                   Diseño UI/UX
                 </Link>
               </li>
               <li>
-                <Link to="/services/mobile-apps" className="inline-block transition-colors hover:text-indigo-400">
+                <Link to="/services/mobile-apps" className="inline-block transition-colors hover:text-orange-400">
                   Aplicaciones Móviles
                 </Link>
               </li>
               <li>
-                <Link to="/services/consulting" className="inline-block transition-colors hover:text-indigo-400">
+                <Link to="/services/consulting" className="inline-block transition-colors hover:text-orange-400">
                   Consultoría
                 </Link>
               </li> */}
@@ -124,20 +124,20 @@ function Footer() {
             <h4 className="mb-4 text-lg font-semibold text-white">Contacto</h4>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start">
-                <svg className="mr-3 h-5 w-5 text-indigo-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="mr-3 h-5 w-5 text-orange-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span>Ciudad, País</span>
               </li>
               <li className="flex items-start">
-                <svg className="mr-3 h-5 w-5 text-indigo-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="mr-3 h-5 w-5 text-orange-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <span>contacto@ejemplo.com</span>
               </li>
               <li className="flex items-start">
-                <svg className="mr-3 h-5 w-5 text-indigo-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="mr-3 h-5 w-5 text-orange-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <span>+1 (123) 456-7890</span>
@@ -155,10 +155,10 @@ function Footer() {
               © {currentYear} Carlos Sanchez. Todos los derechos reservados.
             </p>
             <div className="mt-4 flex justify-center space-x-6 md:mt-0">
-              <a href="/privacy" className="text-sm text-gray-400 transition-colors hover:text-indigo-400">
+              <a href="/privacy" className="text-sm text-gray-400 transition-colors hover:text-orange-400">
                 Política de Privacidad
               </a>
-              <a href="/terms" className="text-sm text-gray-400 transition-colors hover:text-indigo-400">
+              <a href="/terms" className="text-sm text-gray-400 transition-colors hover:text-orange-400">
                 Términos de Servicio
               </a>
             </div>

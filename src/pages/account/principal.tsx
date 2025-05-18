@@ -42,7 +42,7 @@ function NavButton({ to, icon: Icon, label, activePath }: { to: string; icon: Re
     <Link
       to={to}
       className={`px-4 py-2 font-medium text-sm ${
-        isActive ? "border-b-2 border-blue-500 text-blue-600" : "text-gray-500 hover:text-gray-700"
+        isActive ? "border-b-2 border-orange-500 text-orange-600" : "text-gray-500 hover:text-gray-700"
       }`}
     >
       <div className="flex items-center space-x-2">

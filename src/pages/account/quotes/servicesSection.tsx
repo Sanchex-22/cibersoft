@@ -66,9 +66,9 @@ export default function ServicesSection() {
                   </p>
                 </div>
                 <div className="mt-3 flex space-x-4">
-                  <button className="text-sm text-blue-600 hover:text-blue-800">Ver detalles</button>
-                  <button className="text-sm text-blue-600 hover:text-blue-800">Renovar servicio</button>
-                  <button className="text-sm text-blue-600 hover:text-blue-800">Reportar problema</button>
+                  <button className="text-sm text-orange-600 hover:text-orange-800">Ver detalles</button>
+                  <button className="text-sm text-orange-600 hover:text-orange-800">Renovar servicio</button>
+                  <button className="text-sm text-orange-600 hover:text-orange-800">Reportar problema</button>
                 </div>
               </li>
             ))}

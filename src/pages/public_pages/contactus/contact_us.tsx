@@ -70,7 +70,7 @@ export default function ContactUs() {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="font-display text-3xl md:text-4xl text-center mb-4 text-indigo-600">
+        <h2 className="font-display text-3xl md:text-4xl text-center mb-4 text-orange-600">
           Contactanos
         </h2>
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
@@ -84,7 +84,7 @@ export default function ContactUs() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-6">
                   <Check className="h-8 w-8 text-green-600" />
                 </div>
-                <h3 className="font-display text-2xl text-indigo-700 mb-4">¡Gracias por escribirnos!</h3>
+                <h3 className="font-display text-2xl text-orange-700 mb-4">¡Gracias por escribirnos!</h3>
                 <p className="text-gray-600">
                   Hemos recibido tu correo.
                 </p>
@@ -103,7 +103,7 @@ export default function ContactUs() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                       placeholder="Ingresa tu nombre"
                     />
                   </div>
@@ -118,7 +118,7 @@ export default function ContactUs() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                       placeholder="tu@email.com"
                     />
                   </div>
@@ -135,7 +135,7 @@ export default function ContactUs() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                       placeholder="Tu número de teléfono"
                     />
                   </div>
@@ -151,16 +151,16 @@ export default function ContactUs() {
                     value={formData.dietaryRestrictions}
                     onChange={handleChange}
                     rows={3}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
                     placeholder="Indícanos si tienes alguna restricción alimenticia o alergia"
                   ></textarea>
                 </div>
 
                 {status === "error" && (
-                  <div className="bg-red-50 border-l-4 border-red-400 p-4 rounded">
+                  <div className="bg-orange-50 border-l-4 border-orange-400 p-4 rounded">
                     <div className="flex items-start">
-                      <AlertCircle className="h-5 w-5 text-red-400 mr-3 mt-0.5" />
-                      <p className="text-sm text-red-700">{errorMessage}</p>
+                      <AlertCircle className="h-5 w-5 text-orange-400 mr-3 mt-0.5" />
+                      <p className="text-sm text-orange-700">{errorMessage}</p>
                     </div>
                   </div>
                 )}
@@ -169,7 +169,7 @@ export default function ContactUs() {
                   <button
                     type="submit"
                     disabled={status === "loading"}
-                    className="inline-flex items-center px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg transition-colors duration-300 disabled:opacity-70"
+                    className="inline-flex items-center px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-medium rounded-lg transition-colors duration-300 disabled:opacity-70"
                   >
                     {status === "loading" ? (
                       <>

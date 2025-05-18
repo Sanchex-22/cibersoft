@@ -54,7 +54,7 @@ const Sidebar: React.FC = () => {
             <a
               key={link.href}
               href={link.href}
-              className="hover:text-blue-500 duration-500 font-semibold text-lg"
+              className="hover:text-orange-500 duration-500 font-semibold text-lg"
             >
               {link.name}
             </a>
@@ -62,7 +62,7 @@ const Sidebar: React.FC = () => {
         </div>
       </div>
 
-      <footer className="my-5 text-sm select-none hover:text-blue-500">
+      <footer className="my-5 text-sm select-none hover:text-orange-500">
         <p>ePanel Copyright - {new Date().getFullYear()}</p>
       </footer>
     </aside>

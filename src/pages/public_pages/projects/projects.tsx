@@ -73,8 +73,8 @@ export default function Proyects() {
     <section className="scroll-mt-16 relative w-full overflow-hidden bg-white py-16 text-black md:py-24" id="projects">
       {/* Título de sección */}
       <div className="mx-auto mb-12 max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-4xl text-indigo-600">Nuestros Proyectos</h2>
-        <div className="mx-auto mt-3 h-1 w-20 bg-indigo-600"></div>
+        <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-4xl text-orange-600">Nuestros Proyectos</h2>
+        <div className="mx-auto mt-3 h-1 w-20 bg-orange-600"></div>
       </div>
       {/* Carrusel */}
       <div
@@ -94,7 +94,7 @@ export default function Proyects() {
                 <div className="grid gap-8 md:grid-cols-2 md:gap-12">
                   {/* Imagen del proyecto */}
                   <div className="relative overflow-hidden rounded-2xl border border-white/10">
-                    <div className="absolute bottom-0 right-0 h-24 w-24 rounded-tl-3xl bg-indigo-600"></div>
+                    <div className="absolute bottom-0 right-0 h-24 w-24 rounded-tl-3xl bg-orange-600"></div>
                     <img
                       src={project.image || "/placeholder.svg"}
                       alt={project.title}
@@ -123,7 +123,7 @@ export default function Proyects() {
                     <a
                       href={`/project/${project.id}`}
                       rel="noopener noreferrer"
-                      className="inline-flex w-fit items-center justify-center rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-[#1A1A2E]"
+                      className="inline-flex w-fit items-center justify-center rounded-md bg-orange-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-[#1A1A2E]"
                     >
                       Ver Proyecto
                       <svg
@@ -181,7 +181,7 @@ export default function Proyects() {
                   setCurrentIndex(index)
                 }}
                 className={`h-2 rounded-full transition-all ${
-                  currentIndex === index ? "w-6 bg-indigo-600" : "w-2 bg-black/30 hover:bg-white/50"
+                  currentIndex === index ? "w-6 bg-orange-600" : "w-2 bg-black/30 hover:bg-white/50"
                 }`}
                 aria-label={`Ir al proyecto ${index + 1}`}
               />

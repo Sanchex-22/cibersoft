@@ -81,7 +81,7 @@ export default function LoginForm({
         <label className="text-gray-600">Mostrar contraseña</label>
       </div>
 
-      {error && <p className="text-red-500">{error.message}</p>}
+      {error && <p className="text-orange-500">{error.message}</p>}
 
       <div className="mt-4">
         <LoginSubmitButton

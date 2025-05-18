@@ -8,7 +8,7 @@ export type Colors = {
 export const colors: Colors[] = [
     {
       id: "1",
-      colorButton: "bg-violet-500 text-white",
+      colorButton: "bg-orange-500 text-white",
 
     }
     

@@ -35,7 +35,7 @@ export function QuotesSection() {
               <div className="px-4 py-4 sm:px-6">
                 <div className="flex items-center justify-between">
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-                    <p className="text-sm font-medium text-blue-600 truncate">
+                    <p className="text-sm font-medium text-orange-600 truncate">
                       {quote.id}
                     </p>
                     <p className="text-sm text-gray-500">{quote.date}</p>
@@ -48,7 +48,7 @@ export function QuotesSection() {
                               ? "bg-green-100 text-green-800"
                               : quote.status === "Pendiente"
                               ? "bg-yellow-100 text-yellow-800"
-                              : "bg-blue-100 text-blue-800"
+                              : "bg-orange-100 text-orange-800"
                           }`}
                     >
                       {quote.status}
@@ -66,7 +66,7 @@ export function QuotesSection() {
                   </div>
                 </div>
                 <div className="mt-2">
-                  <button className="text-sm text-blue-600 hover:text-blue-800">
+                  <button className="text-sm text-orange-600 hover:text-orange-800">
                     Ver detalles
                   </button>
                 </div>

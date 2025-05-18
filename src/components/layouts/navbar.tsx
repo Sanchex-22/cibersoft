@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
   const isHome = currentPathname?.name === "/";
 
   const nav_links = [
-    { name: "CiberSoft", href: "/" },
+    { name: "FEENNIX", href: "/" },
     { name: "Nosotros", href: isHome ? "#about-us" : "/#about-us" },
     { name: "Projects", href: isHome ? "#projects" : "/#projects" },
     { name: "Services", href: isHome ? "#services" : "/#services" },
@@ -57,7 +57,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
               href="/"
               className="text-gray-900 font-bold text-xl tracking-tight hover:text-gray-700 transition-colors"
             >
-              CIBERSOFT
+              FEENNIX
             </a>
           </div>
 
@@ -69,8 +69,8 @@ const Navbar: React.FC<NavbarProps> = ({ currentPathname }) => {
                     key={index}
                     href={link.href}
                     className={`relative py-2 text-base font-medium transition-colors
-                      after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-violet-600 after:transition-all after:duration-300 hover:after:w-full
-                      ${isActive(link.href) ? "text-gray-900 after:w-full" : "text-gray-600 hover:text-violet-600"}`}
+                      after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 hover:after:w-full
+                      ${isActive(link.href) ? "text-gray-900 after:w-full" : "text-gray-600 hover:text-orange-600"}`}
                   >
                     {link.name}
                   </a>

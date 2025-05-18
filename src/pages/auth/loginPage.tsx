@@ -24,7 +24,7 @@ function LoginPage() {
         <div className="text-center mt-4">
           <Link
             to="/forgot-password"
-            className="text-sm text-blue-400 hover:underline"
+            className="text-sm text-orange-400 hover:underline"
           >
             ¿Olvidaste tu contraseña?
           </Link>

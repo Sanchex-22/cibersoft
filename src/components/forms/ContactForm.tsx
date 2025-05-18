@@ -87,7 +87,7 @@ const ContactForm: React.FC = () => {
         </div>
       )}
       {status === "error" && (
-        <div className="py-2 px-4 bg-red-600 text-white border rounded border-red-800 text-center">
+        <div className="py-2 px-4 bg-orange-600 text-white border rounded border-orange-800 text-center">
           <p>Ocurrió un error al enviar el mensaje</p>
         </div>
       )}

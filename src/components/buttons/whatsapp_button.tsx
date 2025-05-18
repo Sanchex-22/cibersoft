@@ -31,7 +31,7 @@ const WhatsappButton: React.FC = () => {
             />
           </g>
         </svg>
-        <span className="absolute -right-0 -top-2 rounded-full bg-red-500 p-0.5 px-2 text-sm text-red-50">1</span>
+        <span className="absolute -right-0 -top-2 rounded-full bg-orange-500 p-0.5 px-2 text-sm text-orange-50">1</span>
       </a>
     </div>
   );
