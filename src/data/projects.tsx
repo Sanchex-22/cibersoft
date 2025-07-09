@@ -29,6 +29,15 @@ export const projects: Project[] = [
     tags: ["Astro", "Tailwind"],
     link: "https://blogtemplate-three.vercel.app/",
   },
+  {
+    id: 3,
+    title: "CiberSoft",
+    description:
+      "Sistema de gestión de inventario para pequeñas y medianas empresas, con funcionalidades de seguimiento de productos y reportes.",
+      image: Images.blogpage || "/placeholder.svg?height=600&width=800",
+    tags: ["Vite.js", "Node", "Tailwind CSS"],
+    link: "#",
+  },
   // {
   //   id: 3,
   //   title: "Sistema de Gestión de Inventario",
